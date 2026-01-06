@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
     # Start HTTP server on port 8082
     port = 8082
-    server_address = ("localhost", port)
+    server_address = ("161.35.199.69", port)
     server = HTTPServer(server_address, HandleRequests)
 
     print(f"Starting server on port {port}...")
